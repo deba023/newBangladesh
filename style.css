@@ -1,3 +1,4 @@
+
 /*1st Section*/
 
 body{
@@ -414,3 +415,83 @@ h2{
     color: #666;
     font-size: 14px;
   }
+
+
+  /*nav bar*/
+  .navbar {
+    background-color: #fff; /* Example background color */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between; /* This is the key */
+    align-items: center; /* Vertically center items */
+    max-width: 1200px; /* Optional: Set a max width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some horizontal padding */
+}
+
+.navbar h1 {
+    /* Style your h1 as needed */
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+}
+
+.sign-in .navbtn {
+    /* Style your button as needed */
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.signIn .navbtn:hover{
+    background-color: #eee;
+}
+
+/*footer section*/
+
+.footer {
+    background-color: #fff;
+    padding: 30px 0;
+    border-top: 1px solid #eee;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footerLogo {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.footerSocial {
+    display: flex;
+    gap: 20px;
+}
+
+.footerSocial img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+}
+
+.footerSocial a:hover img {
+    opacity: 0.7;
+}
