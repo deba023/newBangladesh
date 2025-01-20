@@ -368,3 +368,49 @@ h2{
       font-size: 12px;
       margin-top: 10px;
   }
+
+
+  /*Quote Section*/
+ .quoteSection {
+    margin-top: 25px;
+    background-color: #f8f9fa;
+  }
+  
+ .quoteContainer {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+  }
+
+ .quote {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+ .quote p{
+    font-size: 16px;
+  }
+  
+ .quoteAuthor {
+    padding-left: 10px;
+    text-align: left;
+  }
+  
+ .authorName {
+    font-weight: bold;
+    color: #000;
+  }
+  
+ .authorTitle {
+    color: #666;
+    font-size: 14px;
+  }
