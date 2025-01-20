@@ -47,6 +47,7 @@ h2{
 
 
 .container{
+    margin-top: 10px;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -203,7 +204,8 @@ h2{
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
 }
   
 .readMore:hover {
@@ -236,7 +238,7 @@ h2{
   
   .donateSection h1 {
     font-size: 36px;
-    color: #222;
+    color: #222222;
     margin-bottom: 10px;
   }
   
@@ -255,23 +257,23 @@ h2{
   }
   
   .donationOption {
-    font-size: 24px; /* Increase the font size */
+    font-size: 24px; 
     font-weight: bold;
-    padding: 15px 30px; /* Add more padding */
-    border: 2px solid #ccc; /* Define border */
-    border-radius: 8px; /* Add rounded corners */
-    background-color: white; /* Keep it clean */
+    padding: 15px 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
     cursor: pointer;
-    transition: all 0.3s ease; /* Smooth hover effect */
+    transition: all 0.3s ease;
   }
   
   .donationOption:hover {
-    background-color: #e0ffe0; /* Highlight on hover */
+    background-color: #e0ffe0;
     border-color: #5cb85c;
   }
   
   .donationOption.active {
-    background-color: #d4f5d4; /* Highlight active button */
+    background-color: #d4f5d4;
     border-color: #4cae4c;
   }
   
@@ -310,3 +312,59 @@ h2{
     background-color: #005822;
   }
   
+  /*first challenge section*/
+  .newsletter {
+    background-color: #e0f2f7;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+    
+  }
+  
+  .newsletterContent {
+    text-align: center;
+  }
+  
+  .newsletter h2 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .newsletterForm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 300px;
+    color: black;
+  }
+  
+  .newsletter button {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .newsletter button:hover {
+    background-color: #006666;
+  }
+  .newsletterPromise{
+      font-size: 12px;
+      margin-top: 10px;
+  }
