@@ -100,7 +100,16 @@ h2{
     border-radius: 5px;
     cursor: pointer;
     margin-top: auto;
+    font-size: 18px;
 }
+
+.bluebtn:hover {
+    background-color: #10437a;
+    border-color: #000000;
+    transition: background-color 0.5s ease;
+  }
+
+
 .greenbtn{
     background-color: #09A15C;
     color: white;
@@ -108,8 +117,16 @@ h2{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 7px;
+    margin-top: 13px;
+    font-size: 18px;
 }
+.greenbtn:hover {
+    background-color: #005822;
+    border-color: #000000;
+    transition: background-color 0.5s ease;
+  }
+
+
 .yollowbtn{
     background-color: #FFC239;
     color: white;
@@ -117,10 +134,14 @@ h2{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 7px;
+    margin-top: 13px;
+    font-size: 18px;
 }
-
-
+.yollowbtn:hover {
+    background-color: #aa7f1b;
+    border-color: #000000;
+    transition: background-color 0.5s ease;
+  }
 
 
 /*3rd Section*/
@@ -200,7 +221,7 @@ h2{
 .readMore {
     align-self: flex-start;
     padding: 10px 20px;
-    background-color: #008000;
+    background-color: #007b33;
     color: #ffffff;
     border: none;
     border-radius: 6px;
@@ -210,7 +231,8 @@ h2{
 }
   
 .readMore:hover {
-    background-color: #006600; 
+    background-color: #005822;
+    
 }
 .dateTime{
     font-size: 14px;
@@ -416,46 +438,6 @@ h2{
     font-size: 14px;
   }
 
-
-  /*nav bar*/
-  .navbar {
-    background-color: #fff; /* Example background color */
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,.1);
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-}
-
-.navbar-container {
-    display: flex;
-    justify-content: space-between; /* This is the key */
-    align-items: center; /* Vertically center items */
-    max-width: 1200px; /* Optional: Set a max width for larger screens */
-    margin: 0 auto; /* Center the container */
-    padding: 0 20px; /* Add some horizontal padding */
-}
-
-.navbar h1 {
-    /* Style your h1 as needed */
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #000;
-}
-
-.sign-in .navbtn {
-    /* Style your button as needed */
-    padding: 10px 20px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    background: transparent;
-    cursor: pointer;
-    transition: all .3s;
-}
-
-.signIn .navbtn:hover{
-    background-color: #eee;
-}
 
 /*footer section*/
 
