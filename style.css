@@ -221,3 +221,92 @@ h2{
 #r2{
     margin-top: 20px;
 }
+
+
+/*4th section*/
+
+.donateSection {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .donateSection h1 {
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .donateSection p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .donationOptions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .donationOption {
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold;
+    padding: 15px 30px; /* Add more padding */
+    border: 2px solid #ccc; /* Define border */
+    border-radius: 8px; /* Add rounded corners */
+    background-color: white; /* Keep it clean */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .donationOption:hover {
+    background-color: #e0ffe0; /* Highlight on hover */
+    border-color: #5cb85c;
+  }
+  
+  .donationOption.active {
+    background-color: #d4f5d4; /* Highlight active button */
+    border-color: #4cae4c;
+  }
+  
+  .donationOption:hover {
+    border-color: #007b33;
+  }
+  
+  .customAmountInput {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .customAmountInput:focus {
+    border-color: #007b33;
+  }
+  
+  .donateButton {
+    background-color: #007b33;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donateButton:hover {
+    background-color: #005822;
+  }
+  
