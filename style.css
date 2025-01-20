@@ -1,0 +1,104 @@
+body{
+    margin: 4%;
+    font-family: Arial, sans-serif;
+}
+
+.banner{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    border-radius: 40px;
+
+}
+
+h5{
+    font-size: 20px;
+    opacity: 60%;
+    font-style: bold;
+}
+h2{
+    font-size: 50px;
+    font-style: bold;
+}
+.bannerimg{
+    display: flex;
+
+}
+
+.bannerbtn{
+    padding: 15px;
+    background-color: #006A50;
+    color: #fff;
+    border-radius: 15px;
+    font-size: medium;
+    
+}
+.bannerbtn:hover{
+    background-color: #4cbb9a ;
+    color: black;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.visionSection h2{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+.digitalCard{
+    background-color:#D5E1F5;
+    padding: 25px;
+    border-radius: 15px;
+    min-width: 300px;
+    max-width: 350px;
+
+}
+.greenCard{
+    background-color: #C6E4D6;
+    padding: 25px;
+    border-radius: 15px;
+    min-width: 300px;
+    max-width: 350px;
+}
+
+.mordernCard{
+    background-color: #F7EBCF;
+    padding: 25px;
+    border-radius: 15px;
+    min-width: 300px;
+    max-width: 350px;
+}
+
+.bluebtn{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+}
+.greenbtn{
+    background-color: #09A15C;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.yollowbtn{
+    background-color: #FFC239;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 7px;
+    
+}
